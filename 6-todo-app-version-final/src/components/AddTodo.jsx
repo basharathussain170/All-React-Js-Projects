@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import styles from "./AddTodo.module.css";
 import { MdOutlineAddBox } from "react-icons/md";
 function AddTodo({ onNewItem }) {
   const [todoName, setTodoName] = useState("");
@@ -13,8 +12,7 @@ function AddTodo({ onNewItem }) {
   };
 
   const handleAddButtonClicked = (event) => {
-    event.preventDefault()
-    // console.log("hii dear!")
+    event.preventDefault();
     onNewItem(todoName, todoDate);
     setTodoName("");
     setTodoDate("");

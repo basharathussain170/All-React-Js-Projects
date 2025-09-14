@@ -1,0 +1,38 @@
+.app-container{
+  display: flex;
+}
+.content{
+  width: 100%;
+}
+.sidebar{
+  /* min-height: 100vh; */
+  min-height: 800px;
+}
+.post-card{
+  margin: 20px 50px;
+}
+.hashtag{
+  margin: 0px 3px;
+  font-weight: 400;
+}
+.delete-btn{
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
+  cursor: pointer;
+}
+.reactions{
+  margin: 15px 0 0 0;
+}
+
+.create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+.welcome-message{
+  margin: 100px 0;
+}
+.spinner{
+  margin: 10% 0;
+}
